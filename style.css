@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+
+    height: 80px;
+}
+
+.logo h2 {
+    margin-left: 50px;
+    margin-top: 13px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo span {
+    color: red;
+}
+
+.header i {
+    font-size: 37px;
+    margin-top: 17.4px;
+    margin-left: 400px;
+
+}
+
+.header i:hover {
+    color: red;
+    opacity: 95%;
+    transition: 0.7s;
+    font-size: 35px;
+
+
+}
+
+.search input {
+    display: block;
+    height: 5.3vh;
+    width: 50vh;
+    background: transparent;
+    padding-left: 20px;
+    border: 1px solid gray;
+    margin-left: 20px;
+    margin-top: 15px;
+    outline: none;
+}
+
+.search input:hover {
+    border: 1px solid red;
+}
+
+.search .fa i {
+    position: absolute;
+
+    font-size: 23px;
+    top: 7px;
+    left: 570px;
+    opacity: 70%;
+}
+
+.search .fa i:hover {
+    color: gray;
+    transition: 0.3s;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.sidebar {
+    background-color: lightskyblue;
+    transition-property: all;
+    transition-duration: 1.5;
+    transition-delay: 3s;
+    height: 1000px;
+    width: 20%;
+
+}
+
+.dashboard {
+    background-color: #c7e6fd;
+    width: 100%;
+    padding-left: 10px;
+
+
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: darkblue;
+    padding-left: 20px;
+}
+
+.sidebar i {
+    color: darkblue;
+}
+
+.sidebar ul {
+    display: inline;
+}
+
+.sidebar ul li {
+    font-size: 20px;
+    padding-top: 30px;
+    margin-left: 10px;
+
+}
+
+.sidebar ul li:hover {
+    color: red;
+}
+
+.pages h4 {
+    color: darkblue;
+    margin-top: 50px;
+    padding-left: 10px;
+    opacity: 67%;
+
+}
+
+.pages-down ul li a:hover {
+    color: red;
+}
+
+.another li i {
+    padding-right: 20px;
+
+
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.another li {
+    color: darkblue;
+    cursor: pointer;
+}
+.another .forms ul {
+    display: inline-block;
+}
+.another .forms li {
+    margin-left: 0px;
+    
+}
+.another .forms li a {
+    color: darkred;
+}
+.another li:hover {
+    color: red;
+}
+.another .forms li a:hover {
+    color: brown;
+    text-shadow: 5px 5px 5px white;
+    font-size: 25px;
+    transition: 0.7s;
+}
+
+
+.normaltext h2,
+h4 {
+    margin-top: 10px;
+    color: darkblue;
+    margin-left: 15px;
+}
+
+.normaltext h2 {
+    font-size: 30px;
+}
+
+.normaltext h4 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.normaltext span {
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.sales-revenue {
+    margin-left: 150px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sales {
+    height: 260px;
+    width: 400px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 6px;
+}
+
+.revenue {
+    height: 260px;
+    width: 400px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 6px;
+}
+
+.sales .sales-text1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sales .sales-text1 h3 {
+    color: darkblue;
+    font-size: 20px;
+}
+
+.sales .sales-text1 span {
+    opacity: 60%;
+}
+
+.sales .sales-text1 h5 {
+    font-size: 25px;
+    color: darkblue;
+    opacity: 68%;
+    margin-left: 250px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.revenue .revenue-text1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.revenue .revenue-text1 h3 {
+    color: darkblue;
+    font-size: 20px;
+}
+
+.revenue .revenue-text1 span {
+    opacity: 60%;
+}
+
+.revenue .revenue-text1 h5 {
+    font-size: 25px;
+    color: darkblue;
+    opacity: 68%;
+    margin-left: 173px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.customers,
+.reports {
+
+    height: 210px;
+    width: 850px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 200px;
+    border-radius: 6px;
+}
+
+.customers .customers-text1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.customers .customers-text1 h3 {
+    color: darkblue;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.customers .customers-text1 span {
+    opacity: 60%;
+}
+
+.customers .customers-text1 h5 {
+    font-size: 25px;
+    color: darkblue;
+    opacity: 68%;
+    margin-left: 623px;
+    margin-top: px;
+    cursor: pointer;
+}
+
+
+#arrow1 {
+    margin-left: 92px;
+}
+#arrow2{
+    margin-left: 94.7px;
+}
+#arrow3 {
+    margin-left: 94px;
+}
+#arrow4 {
+    margin-left: 101px;
+}
+#arrow6 {
+    margin-left: 126.5px;
+}
+
+.sales{
+    box-shadow: 10px 10px 10px rgba(27, 25, 25, 0.342);
+}
+
+.revenue {
+    box-shadow: 10px 10px 10px rgba(27, 25, 25, 0.342);
+}
+.customers {
+    box-shadow: 10px 10px 10px rgba(27, 25, 25, 0.342);
+}
+.reports {
+    box-shadow: 10px 10px 10px rgba(27, 25, 25, 0.342);
+}
+.reports .reports-text1 {
+    display: flex;
+    
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.reports .reports-text1 h3 {
+    color: darkblue;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.reports .reports-text1 span {
+    opacity: 60%;
+}
+
+.reports .reports-text1 h5 {
+    font-size: 25px;
+    color: darkblue;
+    opacity: 68%;
+    margin-left: 646px;
+    margin-top: px;
+    cursor: pointer;
+}
+.salestext12 i{
+    display: block;
+    position: relative;
+    background-color: #c7e6fd;
+    height: 54px;
+    width: 70px;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: ;
+    top: 60px;
+    left: 30px;
+    font-size: 40px;
+    color: darkblue;
+   
+}
+.salestext12 h2 {
+    color: darkblue;
+    position: relative;
+    font-size: 40px;
+    top: -7px;
+    font-weight: bold;
+    left: 140px;
+}
+.salestext12 h3 {
+    position: relative;
+    top: 4px;
+    left: 140px;
+    color: green;
+    font-size: 18px;
+}
+.salestext12 span {
+    color: gray;
+    opacity: 70%;
+}
+.revenuetext12 i{
+    display: block;
+    position: relative;
+    background-color: #c7e6fd;
+    height: 54px;
+    width: 70px;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: ;
+    top: 60px;
+    left: 30px;
+    font-size: 40px;
+    color: darkblue;
+}
+
+.revenuetext12 h2{
+    color: darkblue;
+    position: relative;
+    font-size: 40px;
+    top: -7px;
+    font-weight: bold;
+    left: 140px;
+}
+.revenuetext12 h3 {
+    position: relative;
+    top: 4px;
+    left: 140px;
+    color: green;
+    font-size: 18px;
+}
+.revenuetext12 span {
+    color: gray;
+    opacity: 70%;
+}
+
+
+.customertext12 i{
+  
+    position: relative;
+    background-color: #c7e6fd;
+    height: 54px;
+    width: 45px;
+    border-radius: 50%;
+    padding: 20px 10px 10px 28px;
+    top: 40px;
+    left: 30px;
+    font-size: 40px;
+    color: darkblue;
+}
+
+.customertext12 h2{
+    color: darkblue;
+    position: relative;
+    font-size: 40px;
+    top: -30px;
+    font-weight: bold;
+    left: 140px;
+}
+.customertext12 h3 {
+    position: relative;
+    top: -20px;
+    left: 140px;
+    color: red;
+    font-size: 18px;
+}
+.customertext12 span {
+    color: gray;
+    opacity: 70%;
+}
+
+.reportstext12 i{
+    position: relative;
+    background-color: #c7e6fd;
+    height: 54px;
+    width: 45px;
+    border-radius: 50%;
+    padding: 20px 10px 10px 28px;
+    top: 40px;
+    left: 30px;
+    font-size: 40px;
+    color: darkblue;
+}
+.reportstext12 h2{
+    color: darkblue;
+    position: relative;
+    font-size: 40px;
+    top: -30px;
+    font-weight: bold;
+    left: 140px;
+}
+.reportstext12 h3 {
+    position: relative;
+    top: -20px;
+    left: 140px;
+    color: red;
+    font-size: 18px;
+}
+.reportstext12 span {
+    color: gray;
+    opacity: 70%;
+}
+

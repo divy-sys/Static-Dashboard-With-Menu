@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" async defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                <h2>DI<span>V</span>Y</h2>
+            </div>
+            <i class="fa-solid fa-bars" onclick="fun()"></i>
+
+            <div class="search">
+
+                <input type="text" placeholder="Search">
+               <div class="fa"> <i class="fa-sharp fa-solid fa-magnifying-glass" ></i></div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="sidebar" id="side">
+                    <div class="dashboard-icons">
+                        <ul>
+                            <li><i class="fa-regular fa-user"></i><a href="">Dashboard</a></li>
+                            <div class="another">
+                            <li><i class="fa-regular fa-user"></i>Forms <span id="arrow1"><i class="fa-solid fa-chevron-down" onclick="formdivy()" ></i></span></li> 
+                                    <div class="forms" id="formsofform" style="display: none;">
+                                        <ul>
+                                            <li><a href="">Form1</a></li>
+                                             <li><a href="">Form2</a></li>
+                                             <li><a href="">Form3</a></li>
+                                        </ul>
+                                    </div>
+                            <li><i class="fa-regular fa-user"></i>Tables<span id="arrow2"><i class="fa-solid fa-chevron-down" onclick="tables()"></i></span></li> 
+                            <div class="forms" id="tablesoftable"style="display: none;" >
+                                <ul>
+                                     <li><a href="">Table1</a></li>
+                                     <li><a href="">Table2</a></li>
+                                     <li><a href="">Table3</a></li>
+                                </ul>
+                            </div>
+                            <li><i class="fa-regular fa-user"></i>Charts<span id="arrow3"><i class="fa-solid fa-chevron-down" onclick="charts()"></i></span></li>
+                            <div class="forms" id="chartsofchart" style="display: none;">
+                                <ul>
+                                     <li><a href="">Chart1</a></li>
+                                     <li><a href="">Chart2</a></li>
+                                     <li><a href="">Chart3</a></li>
+                                </ul>
+                            </div>
+                            <li><i class="fa-regular fa-user"></i>JS<span id="arrow6"><i class="fa-solid fa-chevron-down" onclick="js()"></i></span></li> 
+                            <div class="forms" id="jsofjs" style="display: none;" >
+                                <ul>
+                                     <li><a href="">JS1</a></li>
+                                     <li><a href="">JS2</a></li>
+                                     <li><a href="">JS3</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+
+                    <div class="pages">
+                        <h4>PAGES</h4>
+                    </div>
+                    <div class="pages-down">
+                        <ul>
+                            <li><i class="fa-regular fa-user"></i> <a href="">Profile</a></li>
+                            <li><i class="fa-regular fa-circle-question"></i> <a href="">FAQ</a></li>
+                            <li><i class="fa-regular fa-address-book"></i> <a href="">Contact</a></li>
+                            <li><i class="fa-regular fa-address-card"></i>  <a href=""> Register</a></li>
+                    </div>
+            </div>
+            <div class="dashboard" id="dash">
+                <div class="normaltext">
+                    <h2>Dashboard</h2>
+                    <h4>Home/ <span>Dashboard</span></h4>
+                </div>
+
+                <div class="sales-revenue">
+
+                    <div class="sales">
+                    <div class="sales-text1">
+                        
+                        <h3>Sales | <span>Today</span></h3> 
+                        <h5>...</h5>
+                        
+                    </div>
+                    <div class="salestext12">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <h2>145</h2>
+                        <h3>12% <span>Increase</span></h3>
+                    </div>
+                    </div>
+
+                    <div class="revenue">
+                        <div class="revenue-text1">
+                            <h3>Revenue | <span>This Month</span></h3> 
+                            <h5>...</h5>
+                        </div>
+
+                        <div class="revenuetext12">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                            <h2>$3,264</h2>
+                            <h3>4% <span>increase</span></h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="customers">
+                    <div class="customers-text1">
+                        <h3>Customers | <span>This Year</span></h3> 
+                        <h5>...</h5>
+                    </div>
+
+                    <div class="customertext12">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                        <h2>$3,264</h2>
+                        <h3>12% <span>Decrease</span></h3>
+                    </div>
+                </div>
+
+                <div class="reports">
+                    <div class="reports-text1">
+                        <h3>Reports | <span>This Year</span></h3> 
+                        <h5>...</h5>
+                    </div>
+
+                    <div class="reportstext12">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                        <h2>$3,400</h2>
+                        <h3>14% <span>Decrease</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
